@@ -1,11 +1,10 @@
 @extends('layouts.app')
 @section('content')
-
 <div class="hero min-h-screen bg-center bg-base-100">
   <div class="hero-content text-center text-neutral-content">
     <div class="max-w-md">
-        <h1 class="mb-5 text-5xl font-bold text-base-content">Welkom!</h1>
-        <p class="mb-5 text-base-content">Welkom bij laadjefiets.nl</p>
+        <h1 class="mb-5 md:text-5xl text-3xl font-bold text-base-content">Welkom!</h1>
+        <p class="mb-5 text-base-content">Welkom bij {{ config('app.name') }}</p>
         <div class="flex flex-col">
         <div class="stats shadow-lg mb-5 p-4 bg-base-200 rounded-lg">
             <div class="stat">
